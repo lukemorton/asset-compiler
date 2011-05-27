@@ -1,0 +1,41 @@
+{
+	"app.js" : [
+		"src/javascripts/appy.js",
+		"src/javascripts/intro.js",
+		"src/javascripts/mail/*.js",
+		"src/javascripts/mail/folder/*.js",
+		"src/javascripts/outro.js"
+	],
+	
+	"vendor.js" : [
+		"vendor/*.js",
+		"vendor/uploadify/jquery.uploadify.v2.1.0.js",
+		"vendor/uploadify/swfobject.js",
+		"vendor/farbtastic/farbtastic.js",
+		"vendor/tipsy/src/javascripts/jquery.tipsy.js"
+	],
+	
+	"ckeditor.js" : [
+		"vendor/ckeditor/ckeditor.js",
+		"vendor/ckeditor/adapters/jquery.js"
+	],
+	
+	"ckeditor" : [
+		"vendor/ckeditor/lang/*",
+		"vendor/ckeditor/images/*",
+		"vendor/ckeditor/plugins/*",
+		"vendor/ckeditor/skins/*",
+		"vendor/ckeditor/themes/*",
+		"vendor/ckeditor/contents.css"
+	],
+	
+	"uploadify" : [
+		"vendor/uploadify/*.swf"
+	],
+	
+	"farbtastic" : [
+		"vendor/farbtastic/*.png",
+		"vendor/farbtastic/*.css"
+	]
+	
+}
